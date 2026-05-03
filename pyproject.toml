@@ -10,7 +10,7 @@ dependencies = [
     "numpy",
 ]
 license = {text = "GPL-3.0-or-later"}
-dynamic = ["version"]
+version = "0.1.0"
 
 [project.optional-dependencies]
 test = ["pytest"]
