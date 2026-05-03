@@ -12,8 +12,5 @@ dependencies = [
 license = {text = "GPL-3.0-or-later"}
 dynamic = ["version"]
 
-[project.optional-dependencies]
-test = ["pytest"]
-
 [tool.setuptools]
 packages = ["src"]
