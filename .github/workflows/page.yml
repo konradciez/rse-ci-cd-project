@@ -25,10 +25,10 @@ jobs:
           
       - run: pdoc ./src -o docs-out
         
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: docs-out
           
       
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
