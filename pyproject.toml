@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rse-ci-cd-project"
+dependencies = [
+    "numba",
+    "pint",
+    "numpy",
+]
+license = {text = "GPL-3.0-or-later"}
+dynamic = ["version"]
+
+[project.optional-dependencies]
+test = ["pytest"]
